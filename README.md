@@ -22,7 +22,7 @@ vcpkg-registry for notixbit open-source libraries
 }
 ```
 
-You can also limit the scope of packages ([ports](ports)) that you want to fetch from our registry:
+You can also limit the scope of packages ( [ports](ports) ) that you want to fetch from our registry:
 
 ```json
 "packages": [ "ntbpp", "...<another-one>", "...<check ports/>"]
