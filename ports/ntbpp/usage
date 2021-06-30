@@ -1,0 +1,4 @@
+The package ntbpp is header only and can be used from CMake via:
+
+    find_path(NTBPP_INCLUDE_DIRS "notixbit/ntbpp")
+    target_include_directories(main PRIVATE ${NTBPP_INCLUDE_DIRS})

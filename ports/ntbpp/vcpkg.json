@@ -1,0 +1,23 @@
+{
+  "name": "ntbpp",
+  "version-string": "1.0.0",
+  "maintainers": [
+    "Notixbit Creative <info@notixbit.net>",
+    "Steven Agyekum <s-8@posteo.mx>"
+  ],
+  "description": [
+    "NTB++ is a header-only utility library for C++ >= 17.",
+    "It includes Colors, Templates & Types. Useful for printing colors, std::map and std::vector into std::cout.",
+    "A couple of common typealiases (typedefs) like String, UInt, StringMap, StringMapOf<Type> are included as well."
+  ],
+  "homepage": "https://github.com/notixbit/ntbpp",
+  "documentation": "https://notixbit.github.io/ntbpp/namespaces.html",
+  "license": "MIT",
+  "supports": "!uwp",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    }
+  ]
+}
